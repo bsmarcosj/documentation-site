@@ -1,15 +1,16 @@
 +++
-title = "Legacy changelog"
-pagetitle = "Legacy changelog"
-description = "Contains an accurated, chronologically-ordered list of notable changes before 19/09/2019"
+title = "Changelog"
+pagetitle = "Alerts-X changelog"
+description = "Contains an accurated, chronologically-ordered list of notable changes"
 weight = 2
 icon="fa-exchange"
 svgicon="https://media.graphcms.com/kDcxZmKCQx2oLNNfGvSz"
 alwaysopen = false
-hidden = true
-date = 2019-09-19
+hidden = false
 tags = ["products-changelog"]
 +++
+
+Easily accessible log of notable changes to Alerts-X
 
 ## 2019-08-21
 {{% release-notes-container type="f"%}}

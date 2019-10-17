@@ -1,12 +1,13 @@
 {
-  "title": "Reference",
-  "hideGithubLink": true,
+  "title": "APIs & Reference",
 	"pagetitle": "Reference Documentation",
   "description": "Reference Documentation",
-  "weight": 2,
   "icon": "fa-book",
+  "weight": 3,
+  "isDirectory": true,
   "alwaysopen": false
 }
+
 Our reference pages explain all aspects of our GraphQL schema.
 
 These pages are divided into the following sections:

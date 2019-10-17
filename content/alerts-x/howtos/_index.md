@@ -1,12 +1,12 @@
-+++
-title = "How-to guides"
-pagetitle = "Alerts-X how-to guides"
-description = "Perform specific tasks"
-icon = "fa-list"
-weight = 3
-alwaysopen = false
-isDirectory=false
-+++
+{
+  "title": "How-to guides",
+  "pagetitle": "Alerts-X How-to guides",
+  "description": "Alerts-X How-to guides",
+  "icon": "fa-list",
+  "weight": 2,
+  "isDirectory": true,
+  "alwaysopen": false
+}
 
 ## The guides
 
