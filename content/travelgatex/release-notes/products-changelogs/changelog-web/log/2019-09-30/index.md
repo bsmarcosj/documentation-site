@@ -1,32 +1,27 @@
 +++
-title = "2019-07-31"
-pagetitle = "2019-07-31"
+title = "2019-09-30"
+pagetitle = "2019-09-30"
 description = "Contains a chronologically ordered list of notable changes at our website"
 weight = 1
 icon = "fa-cube"
 svgicon = "https://media.graphcms.com/TZIRsCAGSD6uCfBeDhc9"
 alwaysopen = false
-date = 2019-07-31
+date = 2019-09-30
 hidden = true
 tags = ["products-changelog"]
 +++
 
-## 2019-07-31
+## 2019-09-30
 
 {{% release-notes-container type="a"%}}
-- Alerts: Added sort to table
-- Stats: traffic type selector
-- Logging: Added column machine to results
-- Logging: Selector items per page
-- Error Messages: added hint description to error code table
+- ENTITIES: Modified access form to custom require runtime configuration
 {{% /release-notes-container %}}
 
 {{% release-notes-container type="c"%}}
-- Changed format of api-errors
+- IAM: Changes on new macro roles
+- ORGANIZATIONS: Changed filters to not appear on the request on missing
 {{% /release-notes-container %}}
 
 {{% release-notes-container type="f"%}}
-- Logging: Fixed error descriptions
-- Profiles: fixed bug that prevented refresh on edit
-- Logging: Added label when reference filters are disabled
+- MEMBERS: Solved an error realated on updating api-keys after a new creation
 {{% /release-notes-container %}}
