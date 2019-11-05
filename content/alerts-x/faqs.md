@@ -10,5 +10,10 @@
 
 ## FAQs
 
-mbarragam: hay alguna forma de configurar la alerta de peak_traffic para que solo salte para una de las dos cotas? (editado) 
-ddelcastillo: no
+**Se puede configurar la alerta de _peak\_traffic_ para que tenga en cuenta únicamente o la cota superior o la cota inferior y no ambas?**
+
+No, actualmente se tienen en cuenta ambas cotas.
+
+**Las alertas desactivadas se tienen en cuenta en el límite máximo de alertas permitidas?**
+
+No, únicamente se tienen en cuenta aquellas alertas que están activas. El número de alertas configuradas no activas actualmente no tiene límite.
