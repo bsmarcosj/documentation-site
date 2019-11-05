@@ -1,7 +1,7 @@
 {
   "title": "Error rate",
   "hideGithubLink": true,
-  "pagetitle": "AlertsX - Error rate",
+  "pagetitle": "Alert type - Error rate",
   "description": "",
   "weight": 2,
   "icon": "fa-book",
@@ -16,23 +16,29 @@ The main goal of this alert type is to notify anomalies respect with the percent
 
 ### Standard
 
-Este modo tiene como objetivo avisar cuando el total de un conjunto de peticiones supera en "X" al total de otro conjunto de peticiones dónde ambos conjuntos y "X" se definen en la configuración de la alerta. A continuación hay un ejemplo gráfico para hacer más comprensible este modo, en dicho ejemplo la _window_ de datos es de 1 minuto, el _percentage\_to\_alert_ está configurado al 50% y los campos _to\_check_ y _to\_compare_ se han dejado con su valor por defecto (peticiones OK contra el resto de peticiones):
+Este modo tiene como objetivo avisar cuando el total de un conjunto de peticiones supera en "X"% al total de otro conjunto de peticiones dónde ambos conjuntos y "X" se definen en la configuración de la alerta. A continuación hay un ejemplo gráfico para hacer más comprensible este modo, en dicho ejemplo la _window_ de datos es de 1 minuto, el _percentage\_to\_alert_ está configurado al 50% y los campos _to\_check_ y _to\_compare_ se han dejado con su valor por defecto (peticiones erroneas contra el total de peticiones):
 
 {{< figure src="/images/alertsx_error-rate_standard_en.svg#center" alt=" Four steps to using our API">}}
 
-### Comparative (comming soon!)
+### Comparative
+
+__comming soon!__
 
 ## Specific tags
 
-### _percentage\_to\_alert_
+### _to\_check_ ([standard mode](###Standard))
 
-### _to\_check_
+It's the appropiate tag in where desired error code/s to be reviewed must be set. By default this tag includes all wrong transactions.
 
-It's the appropiate tag in where desired error code/s to be reviewed must be set. By default...
+### _to\_compare_ ([standard mode](###Standard))
 
-### _to\_compare_
+It's the appropiate tag in where the error code/s to compare with must be set. By default this tag includes all transactions.
 
-It's the appropiate tag in where the error code/s to compare with must be set. By default...
+### _percentage\_to\_alert_ ([standard mode](###Standard))
+
+ES: Porcentaje a partir del cual la alerta entrará en estado _alerting_. Dicho porcentaje es la ¿proporción/relación? entre el tráfico total del tipo de peticiones indicadas en el _to\_check_ y el tráfico total del tipo de peticiones indicadas en el _to\_compare_.
+
+EN: Percentage when the alert will be triggered (Alerting state). This percentage is the relation between requests in to_check and requests in to_compare
 
 ### Possible comparisons
 

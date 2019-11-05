@@ -9,3 +9,6 @@
 }
 
 ## FAQs
+
+mbarragam: hay alguna forma de configurar la alerta de peak_traffic para que solo salte para una de las dos cotas? (editado) 
+ddelcastillo: no

@@ -1,7 +1,7 @@
 {
   "title": "Average time",
   "hideGithubLink": true,
-  "pagetitle": "AlertsX - Average time",
+  "pagetitle": "Alert type - Average time",
   "description": "",
   "weight": 1,
   "icon": "fa-book",
@@ -30,14 +30,14 @@ En el ejemplo anterior se puede observar que el tiempo medio dentro de rango de 
 
 ## Specific tags
 
-### _max\_average_ (standard mode)
+### _max\_average_ ([standard mode](###Standard))
 
 Tiempo límite por encima del cual la alerta saltará.
 
-### _historical\_window_ (comparative mode)
+### _historical\_window_ ([comparative mode](###Comparative))
 
 Grandaria de la ventana pasada contra la que se compararar los datos actuales
 
-### _offset_ (comparative mode)
+### _offset_ ([comparative mode](###Comparative))
 
 Desplazamiento de tiempo de la _historical\_window_ vs _window_
