@@ -1,32 +1,29 @@
 +++
-title = "2019-07-31"
-pagetitle = "2019-07-31"
+title = "2019-10-15"
+pagetitle = "2019-10-15"
 description = "Contains a chronologically ordered list of notable changes at our website"
 weight = 1
 icon = "fa-cube"
 svgicon = "https://media.graphcms.com/TZIRsCAGSD6uCfBeDhc9"
 alwaysopen = false
-date = 2019-07-31
+date = 2019-10-15
 hidden = true
 tags = ["products-changelog"]
 +++
 
-## 2019-07-31
+## 2019-10-15
 
 {{% release-notes-container type="a"%}}
-- Alerts: Added sort to table
-- Stats: traffic type selector
-- Logging: Added column machine to results
-- Logging: Selector items per page
-- Error Messages: added hint description to error code table
+- ACCESES: Added shared field and allowed url edition in acceses.
+- MENU: new horizontal menu.
 {{% /release-notes-container %}}
 
 {{% release-notes-container type="c"%}}
-- Changed format of api-errors
+- CONNECT: Modified to choose client before hotelx.
+- PUBLIC WEB: changed info searches/day in home.
 {{% /release-notes-container %}}
 
 {{% release-notes-container type="f"%}}
-- Logging: Fixed error descriptions
-- Profiles: fixed bug that prevented refresh on edit
-- Logging: Added label when reference filters are disabled
+- PROFILES: tag error on removing category fixed.
+- PRESS: Fixed media processing.
 {{% /release-notes-container %}}
