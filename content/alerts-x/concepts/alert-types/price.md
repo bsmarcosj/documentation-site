@@ -18,13 +18,13 @@ Method: Quote
 
 ## Alert modes
 
-### Unit
+### Undividual
 
-An alert will be sent for each transaction that does not accomplish the values set (amount/commission)
+In this mode the alert will be triggered if at least one transaction does not accomplish the rules set.
 
 ### Percentage
 
-An alert will be sent if percentage_to_alert is accomplished.
+In this mode the alert will be triggered when certain percentage of transaccions do not accomplish the rules set. This percentage is configured in the tag _percentage\_to\_alert_
 
 ## Specific tags
 

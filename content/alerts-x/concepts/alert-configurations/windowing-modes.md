@@ -3,7 +3,7 @@
   "hideGithubLink": true,
   "pagetitle": "AlertsX - Windowing",
   "description": "",
-  "weight": 1,
+  "weight": 2,
   "icon": "fa-book",
   "alwaysopen": false
 }
