@@ -15,29 +15,30 @@ The main goal of this alert type is to detect anomalies related to the execution
 ## Alert modes
 
 ### Standard
-
-Este modo tiene como objetivo avisar cuando el tiempo medio supera un tiempo previamente establecido. A continuación hay un ejemplo gráfico para hacer más comprensible este modo, en dicho ejemplo la _window_ de datos es de 5 minutos y el _max\_average_ configurado en la alerta es de 1 segundo:
+ 
+This mode aims to notify when the average time exceeds a previously established time. Below is a graphic example to make this mode more understandable, in that example the data _window_ is 5 minutes and the _max \ _average_ configured in the alert is 1 second:
 
 {{< figure src="/images/alertsx_average-time_standard_en.svg#center" alt=" Four steps to using our API">}}
 
 ### Comparative
 
-Este modo sirve para comparar el tiempo medio entre ventanas. Gracias a él podemos crear alertas que nos avisen si, por ejemplo, el tiempo medio actual se ha visto incrementado con respecto a un tiempo medio medido en un momento anterior. A continuación se enseña gráficamente del modo comparativo, en dicho ejemplo se ha configurado tanto la _window_ como la _historical\_window_ con un tamaño de 2 minutos, y un _offset_ de 3 minutos:
+This mode is used to compare the average time between windows. Thanks to it, we can create alerts that let us know if, for example, the current average time has been increased compared to an average time measured at an earlier time. The following graphic shows the comparative mode, in this example both the _window_ and the _historical \ _window_ have been configured with a size of 2 minutes, and an _offset_ of 3 minutes:
+
 
 {{< figure src="/images/alertsx_average-time_comparative_en.svg#center" alt=" Four steps to using our API" attr="" >}}
 
-En el ejemplo anterior se puede observar que el tiempo medio dentro de rango de la _historical\_window_ es de 883 milisegundos en cambio, dentro del rango de la _window_, claramente se ve que el tiempo medio llega a subir más de 1,25 segundos.
+In the previous example can be seen that the average time within the range of the _historical \ _window_ is 883 milliseconds instead, within the range of the _window_, it is seen that the average time reaches more than 1.25 seconds.
 
 ## Specific tags
 
 ### _max\_average_ ([standard mode](###Standard))
 
-Tiempo límite por encima del cual la alerta saltará.
+Time limit above which the alert will notify of an alerting status.
 
 ### _historical\_window_ ([comparative mode](###Comparative))
 
-Grandaria de la ventana pasada contra la que se compararar los datos actuales
+Size of the last window against which the current window data is compared.
 
 ### _offset_ ([comparative mode](###Comparative))
 
-Desplazamiento de tiempo de la _historical\_window_ vs _window_
+Time from last minute of _historical\_window_ to last minute of _window_.
